@@ -1,0 +1,8 @@
+export default () => {
+    const category = JSON.parse('[{"id":"33","parent_id":null,"slug":"muvaffaqiyat-siri","lang":"uz","name":"Muvaffaqiyat siri","image":null,"short_description":"","description":"","status":"1"},{"id":"29","parent_id":null,"slug":"islohot","lang":"uz","name":"Islohot","image":null,"short_description":"","description":"","status":"1"},{"id":"27","parent_id":null,"slug":"tiyinopedia","lang":"uz","name":"Tiyinopedia","image":null,"short_description":"","description":"","status":"1"},{"id":"22","parent_id":null,"slug":"pul-oqimi","lang":"uz","name":"Pul oqimi","image":null,"short_description":"","description":"","status":"1"},{"id":"20","parent_id":null,"slug":"tarix","lang":"uz","name":"Tarix","image":null,"short_description":"","description":"","status":"1"},{"id":"16","parent_id":null,"slug":"reyting","lang":"uz","name":"Reyting","image":null,"short_description":"","description":"","status":"1"},{"id":"14","parent_id":null,"slug":"taqdimot","lang":"uz","name":"Taqdimot","image":null,"short_description":"","description":"","status":"1"},{"id":"12","parent_id":null,"slug":"hi-tech","lang":"uz","name":"Hi-Tech","image":null,"short_description":"","description":"","status":"1"},{"id":"10","parent_id":null,"slug":"strategiya","lang":"uz","name":"Strategiya","image":null,"short_description":"","description":"","status":"1"}]');
+    return (
+        {
+            "categories": category, 
+          }
+    );
+}
